@@ -1,3 +1,3 @@
 # IntroGitHub
 
-[No banana?](Images/nobanana.jpg)
+![No banana?](Images/nobanana.jpg)
