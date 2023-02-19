@@ -1,0 +1,229 @@
+html{ 
+    margin: 0; 
+    height: 100%;
+}
+
+.maintable{
+    border-radius: 50px;
+    background-color: white;
+    border: 1px black solid;
+    list-style: none;
+    width: 600px;
+    height: 650px;
+    
+}
+
+.back:hover{
+    background-color: rgb(189, 51, 164, 0);
+    box-shadow: 0px 0px 20px black;
+    transition: 1s;
+    color: white;
+    
+}
+
+.back{
+    font-family: calibry;
+    font-size: 20px;
+    color: black;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px black;
+    background-color: white;
+    position: absolute;
+    margin-top: 150px;
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    transition: 2s;
+}
+
+.descript{
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    margin-left: 30px;
+    font-size: 15px;
+    width: 200px;
+    background-color: rgb(189, 51, 164, 0.4);
+    border-radius: 30px;
+    box-shadow: 9px 9px 13px rgb(000, 000, 000, 0.3);
+}
+
+.stars{
+    border-radius: 11px;
+    box-shadow: 9px 9px 13px black;
+    position: absolute;
+    left: 50px;
+    top: -20px;
+}
+
+.title{
+    text-shadow: 9px 9px 13px black;
+    color: white;
+    position: absolute;
+    margin-left: 25%;
+    left: 10px;
+    top: 0px;
+}
+
+.image{
+    left: -50px;
+}
+
+.maitrise{
+    left: 180px;
+}
+
+.description{
+    left: 60px;
+}
+
+li{
+    position: relative;
+    left: 0px;
+}
+
+td{
+    position: relative;
+    left: 50px;
+    top: -40px;
+}
+
+.offres{
+    position: relative;
+    top: 100px;
+    left: 0px;
+}
+
+li, img{
+    width: 100px;
+    margin-left: 0px;
+}
+
+.box1{
+    position: absolute;
+    top: 50px;
+}
+
+.box2{
+    position: absolute;
+    top: 250px;
+}
+
+.box3{
+    position: absolute;
+    top: 450px;
+}
+
+.Logo{
+    height: 100px;
+    width: 500px;
+    margin: auto;
+}
+
+.flags{
+    margin-left: 98%;
+    border-radius: 500px;
+}
+
+.uk{
+    position: relative;
+    border-radius: 300px;
+    width: 30px;
+    top: -190px;
+}
+
+.fr{
+    position: relative;
+    border-radius: 300px;
+    width: 30px;
+    height: 15px;
+    top: -190px;
+}
+
+.panier{
+    position: relative;
+    width: 89px;
+    right: -90%;
+    top: -93px;
+    box-shadow: 9px 9px 13px black;
+    border-radius: 70px;
+    transition: 0.25s;
+}
+
+.panier:hover{
+    width: 99px;
+    transition: width 0.25s;
+}
+
+.survolvitrine:hover h4{
+    color: rgb(250,250,250, 1);
+    text-shadow: 2px 3px 2px rgb(189, 51, 164, 1);
+    transition: 1s;
+}
+
+.survolvitrine:hover .vitrine{
+    /* Safari */
+    -webkit-filter: blur(3px);
+    /* Firefox */
+    -moz-filter: blur(3px);
+    /* Opera */
+    -o-filter: blur(3px);
+    /* Internet Explorer */
+    -ms-filter: blur(3px);
+    /* Filtre de floutage CSS3 standard */
+    filter: blur(3px);
+    transition: -webkit-filter, -moz-filter, -o-filter, -ms-filter,  1s;
+}
+
+.vitrine{
+    height: 380px;
+    width: 650px;
+    transition: 1s;
+}
+
+p{
+    color: white;
+    font-family: calibri;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    text-align: justify;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+body {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0; 
+    height: 100%;
+}
+
+.menu {
+	width: 650px;
+	min-height: 180vh;
+    margin: auto;
+	background:rgb(189, 51, 164, 1);
+}
+      .global{
+        min-height: 100%;
+        position: relative;
+      }
+
+      header{
+        background: rgb(189, 51, 164, 1);
+        height: 125px;
+      }
+
+      footer{
+        background: rgb(189, 51, 164, 1);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 80px;
+        margin-top: 50px;
+      }
+
+      .content{
+        padding-bottom: 50px;
+      }

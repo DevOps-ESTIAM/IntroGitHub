@@ -1,0 +1,330 @@
+html{ 
+    margin: 0; 
+    height: 100%;
+}
+
+
+.map{
+    position: absolute;
+    bottom: 0px;
+    left: auto;
+}
+
+.Logo{
+    height: 100px;
+    width: 500px;
+    margin: auto;
+}
+
+.insta{
+	position: relative;
+	width: 40px;
+}
+
+.fb{
+	position: absolute;
+	width: 40px;
+	bottom: 0px;
+	left: 0px;
+}
+
+.flags{
+    margin-left: 98%;
+    border-radius: 500px;
+}
+
+.uk{
+    position: relative;
+    border-radius: 300px;
+    width: 30px;
+    top: -190px;
+}
+
+.fr{
+    position: relative;
+    border-radius: 300px;
+    width: 30px;
+    height: 15px;
+    top: -190px;
+}
+
+.account{
+    position: absolute;
+    width: 89px;
+    left: 0px;
+    top: 0px;
+    box-shadow: 9px 9px 13px black;
+    border-radius: 0px;
+    transition: 0.25s;
+}
+
+.account:hover{
+    box-shadow: 9px 9px 13px white;
+    transition: 0.5s;
+}
+
+
+.panier{
+    position: relative;
+    width: 89px;
+    right: -90%;
+    top: -93px;
+    box-shadow: 9px 9px 13px black;
+    border-radius: 70px;
+    transition: 0.25s;
+}
+
+.panier:hover{
+    width: 99px;
+    transition: width 0.25s;
+}
+
+.avisgeneral{
+    box-shadow: 9px 9px 13px #aaa;
+    position: relative; 
+    top: -250px; 
+    left: -460px; 
+}
+
+.avis1{
+    box-shadow: 9px 9px 13px #aaa;
+    position: relative;
+    width: 550px;
+    top: -200px; 
+    left: -580px; 
+}
+
+.avis2{
+    box-shadow: 9px 9px 13px #aaa;
+    position: relative;
+    width: 550px;
+    top: -100px; 
+    left: -580px; 
+}
+
+.avis3{
+    box-shadow: 9px 9px 13px #aaa;
+    position: relative;
+    width: 550px;
+    top: 0px; 
+    left: -580px; 
+}
+
+.avis4{
+    box-shadow: 9px 9px 13px #aaa;
+    position: relative;
+    width: 550px;
+    top: 100px; 
+    left: -580px; 
+}
+
+.reviewus{
+    border-radius: 150px;
+    box-shadow: 9px 9px 13px #aaa;
+    position: relative;
+    left: -400px;
+    top: 200px;
+    width: 150px;
+    height: 135px;
+    transition-duration: 1s;
+}
+
+.reviewus:hover{
+    width: 170px;
+    height: 155px;
+    transition-duration: 0.5s;
+}
+
+h2{
+    color: black;
+    text-shadow: 2px 3px 2px rgb(189, 51, 164, 1);
+    margin-left: 20%;
+}
+
+h4{
+    font-size: 20px;
+    color: rgb(250,250,250, 0);
+    text-shadow: 2px 3px 2px rgb(189, 51, 164, 0);
+    position: relative;
+    top: -180px;
+    left: 60px;
+    transition: 1s;
+}
+
+.survolvitrine:hover h4{
+    color: rgb(250,250,250, 1);
+    text-shadow: 2px 3px 2px rgb(189, 51, 164, 1);
+    transition: 1s;
+}
+
+.survolvitrine:hover .vitrine{
+    /* Safari */
+    -webkit-filter: blur(3px);
+    /* Firefox */
+    -moz-filter: blur(3px);
+    /* Opera */
+    -o-filter: blur(3px);
+    /* Internet Explorer */
+    -ms-filter: blur(3px);
+    /* Filtre de floutage CSS3 standard */
+    filter: blur(3px);
+    transition: -webkit-filter, -moz-filter, -o-filter, -ms-filter,  1s;
+}
+
+.vitrine{
+    height: 310px;
+    width: 650px;
+    transition: 1s;
+}
+
+.script{
+    color: black;
+    text-shadow: 2px 3px 2px rgb(189, 51, 164, 1);
+    margin-left: 0%;
+}
+
+.birthdate-click{
+    margin-left: 33%;
+    margin-top: 50px;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    Color:black;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer; 
+    box-shadow: 0 8px 16px 0 grey;
+    text-decoration: none;
+    transition: background-color 1s;
+    
+    
+}
+
+.birthdate-click:hover {
+    background-color: rgb(189, 51, 164, 0.8);
+  }
+
+p{
+    color: white;
+    font-family: calibri;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    text-align: justify;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.maintext{
+    position: relative;
+    top: -750px;
+}
+
+.titre{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+    top: -50px;
+}
+
+body {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0; 
+    height: 100%;
+}
+
+.menu {
+	width: 650px;
+	min-height: 240vh;
+    margin: auto;
+	background: rgb(189, 51, 164, 1);
+}
+      .global{
+        min-height: 100%;
+        position: relative;
+      }
+
+      header{
+        background: rgb(189, 51, 164, 1);
+        height: 125px;
+      }
+
+      footer{
+        background: rgb(189, 51, 164, 1);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 80px;
+        margin-top: 50px;
+      }
+
+      .content{
+        padding-bottom: 50px;
+      }
+
+.modalDialog {
+    position: float;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 610px;
+    height: 500px;
+    position: relative;
+    margin: 5% auto;
+    padding: 5px 20px 13px 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+    font-size: 15px;
+    font-family: serif;
+    background: white;
+    color: black;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: 400px;
+    margin-right: 290px;
+    width: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    -moz-box-shadow: 2px 2px 4px #000;
+    -webkit-box-shadow: 2px 2px 4px #000;
+    box-shadow: 3px 3px 5px #000;
+    transition: background-color 1s;
+    border-radius: 10px;
+    cursor: pointer; 
+}
+
+
+.close:hover { background: rgb(189, 51, 164, 0.8); 
+}
+
+.charte {
+    text-decoration: none;
+}

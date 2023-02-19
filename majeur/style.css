@@ -1,0 +1,518 @@
+html { 
+    margin: 0; 
+    height: 100%;
+}
+
+.vapolink{
+    text-decoration: underline;
+    color: white;
+}
+
+h1{
+    position: absolute;
+    color: white;
+    font-family: calibri;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    top: 430px;
+    margin-left: 230px;
+    text-decoration: underline;
+}
+
+.back:hover{
+    background-color: rgb(189, 51, 164, 0);
+    box-shadow: 0px 0px 20px black;
+    transition: 1s;
+    color: white;
+    
+}
+
+.back{
+    font-family: calibry;
+    font-size: 20px;
+    color: black;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px black;
+    background-color: white;
+    position: absolute;
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    transition: 2s;
+}
+
+.pvitrine{
+    font-size: 20px;
+    color: rgb(250,250,250, 0);
+    text-shadow: 2px 3px 2px rgb(189, 51, 164, 0);
+    position: relative;
+    top: -180px;
+    margin-left: 33px;
+    transition: 1s;
+}
+
+
+.survolvitrine:hover h4{
+    color: rgb(250,250,250, 1);
+    text-shadow: 2px 3px 2px rgb(189, 51, 164, 1);
+    transition: 1s;
+}
+
+.survolvitrine:hover .vitrine{
+    /* Safari */
+    -webkit-filter: blur(3px);
+    /* Firefox */
+    -moz-filter: blur(3px);
+    /* Opera */
+    -o-filter: blur(3px);
+    /* Internet Explorer */
+    -ms-filter: blur(3px);
+    /* Filtre de floutage CSS3 standard */
+    filter: blur(3px);
+    transition: -webkit-filter, -moz-filter, -o-filter, -ms-filter,  1s;
+}
+
+.title{
+    position: absolute;
+    background: white;
+    width: 150px;
+    margin-left: 36px; 
+    margin-top: 75px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title2{
+    position: absolute;
+    background: white;
+    width: 150px;
+    margin-left: 240px; 
+    margin-top: 75px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title3{
+    position: absolute;
+    background: white;
+    width: 150px;
+    margin-left: 445px; 
+    margin-top: 75px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title4{
+    position: absolute;
+    background: white;
+    width: 150px;
+    margin-left: 36px; 
+    margin-top: 350px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title5{
+    position: absolute;
+    background: white;
+    width: 150px;
+    margin-left: 240px;; 
+    margin-top: 350px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title6{
+    position: absolute;
+    background: white;
+    width: 150px;
+    margin-left: 445px; 
+    margin-top: 350px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.Logo{
+    height: 100px;
+    width: 500px;
+    margin: auto;
+}
+
+.panier{
+    position: relative;
+    width: 89px;
+    right: -90%;
+    top: -93px;
+    box-shadow: 9px 9px 13px black;
+    border-radius: 70px;
+    transition: 0.25s;
+}
+
+.panier:hover{
+    width: 99px;
+    transition: width 0.25s;
+}
+
+.flags{
+    margin-left: 98%;
+    border-radius: 500px;
+}
+
+.uk{
+    position: relative;
+    border-radius: 300px;
+    width: 30px;
+    top: -190px;
+}
+
+.fr{
+    position: relative;
+    border-radius: 300px;
+    width: 30px;
+    height: 15px;
+    top: -190px;
+}
+
+
+h4{
+    font-size: 20px;
+    color: rgb(250,250,250, 0);
+    text-shadow: 2px 3px 2px rgb(189, 51, 164, 0);
+    position: relative;
+    top: -180px;
+    left: 60px;
+    transition: 1s;
+}
+
+.survolvitrine:hover h4{
+    color: rgb(250,250,250, 1);
+    text-shadow: 2px 3px 2px rgb(189, 51, 164, 1);
+    transition: 1s;
+}
+
+.survolvitrine:hover .vitrine{
+    /* Safari */
+    -webkit-filter: blur(3px);
+    /* Firefox */
+    -moz-filter: blur(3px);
+    /* Opera */
+    -o-filter: blur(3px);
+    /* Internet Explorer */
+    -ms-filter: blur(3px);
+    /* Filtre de floutage CSS3 standard */
+    filter: blur(3px);
+    transition: -webkit-filter, -moz-filter, -o-filter, -ms-filter,  1s;
+}
+
+.vitrine{
+    height: 310px;
+    width: 650px;
+    transition: 1s;
+}
+
+.ico:hover .more{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.ico:hover .more2{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.ico:hover .more3{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.ico:hover .more4{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.ico:hover .more5{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.ico:hover .more6{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.more:hover{
+    width: 8.5%;
+}
+
+.more2:hover{
+    width: 8.5%;
+}
+
+.more3:hover{
+    width: 8.5%;
+}
+
+.more4:hover{
+    width: 8.5%;
+}
+
+.more5:hover{
+    width: 8.5%;
+}
+
+.more6:hover{
+    width: 8.5%;
+}
+
+.more{
+    box-shadow: 1px 1px 1px #000000;
+    position: absolute;
+    width: 50px;
+    margin-left: -130px;
+    margin-top: 75px;
+    border-radius: 50px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.more2{
+    box-shadow: 1px 1px 1px #000000;
+    position: absolute;
+    width: 50px;
+    margin-left: -130px;
+    margin-top: 75px;
+    border-radius: 50px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.more3{
+    box-shadow: 1px 1px 1px #000000;
+    position: absolute;
+    width: 50px;
+    margin-left: -130px;
+    margin-top: 75px;
+    border-radius: 50px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.more4{
+    box-shadow: 1px 1px 1px #000000;
+    position: absolute;
+    width: 50px;
+    margin-left: -130px;
+    margin-top: 75px;
+    border-radius: 50px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.more5{
+    box-shadow: 1px 1px 1px #000000;
+    position: absolute;
+    width: 50px;
+    margin-left: -130px;
+    margin-top: 75px;
+    border-radius: 50px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.more6{
+    box-shadow: 1px 1px 1px #000000;
+    position: absolute;
+    width: 50px;
+    margin-left: -130px;
+    margin-top: 75px;
+    border-radius: 50px;
+    opacity: 0;
+    transition: 1s;
+}
+
+
+
+.ico{
+    position: relative;
+    margin-left: 22px;
+    margin-top: 120px;
+}
+
+.kit{
+    border-radius: 20px;
+    width: 200px;
+    margin-bottom: 75px;
+    transition: 1s;
+
+}
+
+.box{
+    border-radius: 20px;
+    width: 200px;
+    margin-bottom: 75px;
+    transition: 1s;
+}
+
+.juice{
+    border-radius: 20px;
+    width: 200px;
+    margin-bottom: 75px;
+    transition: 1s;
+}
+
+.clearo{
+    border-radius: 20px;
+    width: 200px;
+    transition: 1s;
+}
+
+.dripper{
+    border-radius: 20px;
+    width: 200px;
+    transition: 1s;
+}
+
+.divers{
+    border-radius: 20px;
+    width: 200px;
+    transition: 1s;
+}
+
+.kit:hover{
+    /* Safari */
+    -webkit-filter: blur(3px);
+    /* Firefox */
+    -moz-filter: blur(3px);
+    /* Opera */
+    -o-filter: blur(3px);
+    /* Internet Explorer */
+    -ms-filter: blur(3px);
+    /* Filtre de floutage CSS3 standard */
+    filter: blur(3px);
+    transition: -webkit-filter, -moz-filter, -o-filter, -ms-filter,  0.5s;
+}
+
+.box:hover{
+    /* Safari */
+    -webkit-filter: blur(3px);
+    /* Firefox */
+    -moz-filter: blur(3px);
+    /* Opera */
+    -o-filter: blur(3px);
+    /* Internet Explorer */
+    -ms-filter: blur(3px);
+    /* Filtre de floutage CSS3 standard */
+    filter: blur(3px);
+    transition: -webkit-filter, -moz-filter, -o-filter, -ms-filter,  0.5s;
+}
+
+.juice:hover{
+    /* Safari */
+    -webkit-filter: blur(3px);
+    /* Firefox */
+    -moz-filter: blur(3px);
+    /* Opera */
+    -o-filter: blur(3px);
+    /* Internet Explorer */
+    -ms-filter: blur(3px);
+    /* Filtre de floutage CSS3 standard */
+    filter: blur(3px);
+    transition: -webkit-filter, -moz-filter, -o-filter, -ms-filter,  0.5s;
+}
+
+.clearo:hover{
+    /* Safari */
+    -webkit-filter: blur(3px);
+    /* Firefox */
+    -moz-filter: blur(3px);
+    /* Opera */
+    -o-filter: blur(3px);
+    /* Internet Explorer */
+    -ms-filter: blur(3px);
+    /* Filtre de floutage CSS3 standard */
+    filter: blur(3px);
+    transition: -webkit-filter, -moz-filter, -o-filter, -ms-filter,  0.5s;
+}
+
+.dripper:hover{
+    /* Safari */
+    -webkit-filter: blur(3px);
+    /* Firefox */
+    -moz-filter: blur(3px);
+    /* Opera */
+    -o-filter: blur(3px);
+    /* Internet Explorer */
+    -ms-filter: blur(3px);
+    /* Filtre de floutage CSS3 standard */
+    filter: blur(3px);
+    transition: -webkit-filter, -moz-filter, -o-filter, -ms-filter,  0.5s;
+}
+
+.divers:hover{
+    /* Safari */
+    -webkit-filter: blur(3px);
+    /* Firefox */
+    -moz-filter: blur(3px);
+    /* Opera */
+    -o-filter: blur(3px);
+    /* Internet Explorer */
+    -ms-filter: blur(3px);
+    /* Filtre de floutage CSS3 standard */
+    filter: blur(3px);
+    transition: -webkit-filter, -moz-filter, -o-filter, -ms-filter,  0.5s;
+}
+
+p{
+    color: white;
+    font-family: calibri;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    text-align: justify;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+body {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0; 
+    height: 100%;
+}
+
+.menu{
+	width: 650px;
+	min-height: 240vh;
+    margin: auto;
+	background:rgb(189, 51, 164, 1);
+}
+      
+.global{
+    min-height: 100%;
+    position: relative;
+}
+
+header{
+    background: rgb(189, 51, 164, 1);
+    height: 125px;
+}
+
+footer{
+    background: rgb(189, 51, 164, 1);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+}
+
+.content{
+    padding-bottom: 50px;
+}
